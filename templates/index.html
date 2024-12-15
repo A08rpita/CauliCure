@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CauliCure - Predict Cauliflower Diseases</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to CauliCure</h1>
+        <p>Upload an image of a cauliflower leaf to predict its disease.</p>
+        
+        <div class="upload-section">
+            <input type="file" id="file-upload" accept="image/*">
+            <button id="upload-btn">Upload</button>
+        </div>
+        
+        <div id="prediction-result"></div>
+    </div>
+</body>
+</html>
