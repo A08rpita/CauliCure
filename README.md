@@ -19,18 +19,21 @@ CauliCare is a web application that helps farmers and agricultural enthusiasts d
    git clone https://github.com/your-username/CauliCare.git
    
 2.Navigate to the project directory:
+```bash
 cd CauliCare
 
 3.Install dependencies:
+```bash
 pip install -r requirements.txt
 
 4.Run the application:
+```bash
 python app.py
 
 5.Open your browser and go to http://127.0.0.1:5000.
 
 
-#Project Structure
+## Project Structure
 
 CauliCare/
 ├── static/
@@ -44,8 +47,8 @@ CauliCare/
 ├── requirements.txt   # Python dependencies
 └── README.md          # Project documentation
 
-Future Enhancements
-Add a database to store user uploads and predictions.
-Deploy the application to a cloud service like AWS, Azure, or Heroku.
-Expand to include predictions for other vegetable diseases.
+## Future Enhancements
+-Add a database to store user uploads and predictions.
+-Deploy the application to a cloud service like AWS, Azure, or Heroku.
+-Expand to include predictions for other vegetable diseases.
 
