@@ -10,13 +10,13 @@ MODEL_PATH = "model/model.h5"
 model = tf.keras.models.load_model(MODEL_PATH)
 
 # Define class labels
-CLASS_NAMES = ["Bacterial spot rot", "Black Rot", "Downy Mildew","No disease"]  # Replace with actual classes
+CLASS_NAMES = ["Bacterial spot rot", "Black Rot", "Downy Mildew","No disease"] 
 
 # Preprocess the image
 def preprocess_image(image):
-    image = image.resize((256, 256))  # Resize to match model input size
-    image = np.array(image) / 255.0  # Normalize pixel values
-    image = np.expand_dims(image, axis=0)  # Add batch dimension
+    image = image.resize((256, 256))  
+    image = np.array(image) / 255.0  
+    image = np.expand_dims(image, axis=0)  
     return image
 
 @app.route("/", methods=["GET", "POST"])
