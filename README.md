@@ -11,5 +11,5 @@ CauliCare is a web application that helps farmers and agricultural enthusiasts d
 - **Frontend**: HTML, CSS
 - **Backend**: Flask (Python)
 - **Machine Learning**: TensorFlow/Keras
-- **Deployment**: Heroku
+- **Deployment**: Vercel
 
